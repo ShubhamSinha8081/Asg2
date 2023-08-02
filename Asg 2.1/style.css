@@ -1,0 +1,63 @@
+.parent{
+    width: 500px;  
+    border: 1px solid rgba(215, 213, 213, 0.904);
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.img1{
+    position: relative;
+    width: 96%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+}
+.child{
+    position: absolute;
+    border: 1px solid blue;
+    background-color: blue;
+    top: 250px;
+    left: 450px;
+    color: white;
+    padding: 10px;
+    margin: 50px 70px;
+    border-radius: 5px;
+}
+.child1{
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    top: 250px;
+    right: 540px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 50px auto;
+}
+h3{
+    padding: 1px;
+    margin: 12px;
+    margin-top: -8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+H4{
+    padding: 1px;
+    margin: 12px;
+    margin-top: -8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.img2{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+p{
+    position: absolute;
+    right: 600px;
+    bottom: 214px;
+}
